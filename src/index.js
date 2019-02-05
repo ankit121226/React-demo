@@ -1,0 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+import Game from "./components/Game";
+import Counter from "./components/clickCounterIncrease/Counter";
+import CounterDisplay from "./components/clickCounterIncrease/CounterDisplay";
+import Container from "./components/todolist/Container";
+import UncontrolledFormsAndRefs from "./components/todolist/practice/UncontrolledFormsAndRefs";
+import Example from "./components/todolist/practice/Example";
+import HeaderImage from "./components/Tweeter/HeaderImage";
+import MainContainer from "./components/Tweeter/MainContainer";
+ReactDOM.render(<MainContainer />, document.getElementById("app"));
